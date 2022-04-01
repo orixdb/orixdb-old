@@ -1,2 +1,2 @@
 # orixdb
-Simple multi-model NoSQL database, in and for nodejs
+Simple multi-model NoSQL database, written in and for nodejs
