@@ -2,7 +2,7 @@
 
 version       = "0.0.1"
 author        = "orixdb"
-description   = "A simple multi-model NoSQL database, written in and for nodejs."
+description   = "An efficient multi-model NoSQL database, written in Nim for the modern web"
 license       = "MIT"
 srcDir        = "src"
 bin           = @["orixdb"]
