@@ -1,3 +1,4 @@
 # orixdb
-A simple multi-model NoSQL database, written in Nim for the modern web.
+A simple multi-model NoSQL database, queried with GraphQL.
+
 Version 0.0.1
