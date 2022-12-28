@@ -2,7 +2,7 @@
 
 version       = "0.0.1"
 author        = "orixdb"
-description   = "An efficient multi-model NoSQL database, written in Nim for the modern web"
+description   = "An efficient multi-model NoSQL database, queried with graphql"
 license       = "MIT"
 srcDir        = "src"
 bin           = @["orixdb"]
@@ -10,4 +10,5 @@ bin           = @["orixdb"]
 
 # Dependencies
 
-requires "nim >= 1.6.4"
+requires "nim >= 1.9.1"
+requires "cligen >= 1.5"

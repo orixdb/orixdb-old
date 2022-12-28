@@ -1,7 +1,14 @@
-import threadpool
+import cligen
 
-proc gg = echo 8
+import create, serve, optimize, convert, upgrade
 
-spawn gg()
+dispatchMulti(
+  [create.create, help = create.help],
+  [serve.serve, help = serve.help],
+  [optimize.optimize, help = optimize.help],
+  [convert.convert, help = convert.help],
+  [upgrade.upgrade, help = upgrade.help]
+)
 
-echo "Hello World !"
+setControlCHook do() {.noconv.}:
+  quit()
