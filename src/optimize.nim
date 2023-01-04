@@ -1,4 +1,4 @@
-let help* = {}
+const help* = {}
 
 proc optimize*() =
   echo "Optimize"

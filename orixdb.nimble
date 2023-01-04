@@ -10,5 +10,6 @@ bin           = @["orixdb"]
 
 # Dependencies
 
-requires "nim >= 1.9.1"
+# requires "nim >= 1.9.1"
 requires "cligen >= 1.5"
+requires "termui >= 0.1.8"
